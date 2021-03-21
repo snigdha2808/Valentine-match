@@ -1,0 +1,9 @@
+x,y=input().split()
+c=int(x)
+d=int(y)
+e=c^d
+f=c+d
+if(e==f):
+    print("'Valentine Match'")
+else:
+    print("None")
